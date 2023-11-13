@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp">
+
+    <include layout="@layout/titlebar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/bangundatar_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bangun_datar_textview"
+            android:layout_marginRight="12sp"
+            android:fontFamily="sans-serif-black"
+            android:textStyle="normal"
+            android:layout_marginBottom="10sp"
+            android:textColor="@color/chocolate"
+            />
+
+        <Spinner
+            android:id="@+id/bangundatar_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="45sp"
+            android:layout_marginBottom="16sp"
+            android:paddingLeft="20sp"
+            android:paddingRight="20sp"
+            android:textSize="14sp"
+            android:background="@drawable/spinner_section"
+            android:prompt="@string/bangun_datar_prompt"
+            android:entries="@array/bangun_datar_arrays"/>
+    </LinearLayout>
+
+    <include layout="@layout/copyright"/>
+
+</LinearLayout>

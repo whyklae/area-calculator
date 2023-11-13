@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30sp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/persegi_section"
+        android:fontFamily="sans-serif-black"
+        android:textSize="40sp"
+        android:textColor="@color/fire_brick"/>
+
+    <TextView
+        android:id="@+id/deskripsi_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="100sp"
+        android:layout_marginBottom="30sp"
+        android:text="@string/persegi_section_description"
+        />
+
+    <TextView
+        android:id="@+id/sisi_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sisi_textview"
+        android:layout_marginRight="12sp"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="normal"
+        android:layout_marginBottom="10sp"
+        android:textColor="@color/chocolate"
+        />
+
+    <EditText
+        android:id="@+id/sisi_edit"
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:hint="@string/sisi_edittext"
+        android:inputType="number|numberDecimal"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:layout_marginBottom="16sp"
+        android:textSize="14sp"
+        android:background="@drawable/edit_text_section"
+        />
+
+    <TextView
+        android:id="@+id/luas_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/luas_textview"
+        android:layout_marginRight="12sp"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="normal"
+        android:layout_marginBottom="10sp"
+        android:textColor="@color/fire_brick"
+        />
+
+    <EditText
+        android:id="@+id/luas_edit"
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:hint="@string/luas_edittext"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:enabled="false"
+        android:textSize="14sp"
+        android:layout_marginBottom="16sp"
+        android:textColor="@color/black"
+        android:background="@drawable/edit_text_section"
+        />
+
+    <Button
+        android:id="@+id/luas_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/luas_button"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_button"/>
+
+    <include layout="@layout/copyright"/>
+</LinearLayout>

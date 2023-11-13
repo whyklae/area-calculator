@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Area Calculator</string>
+
+<!--    Copyright-->
+    <string name="copyright">Inafianti Klaristania Rilano</string>
+
+<!--    Tampilan awal-->
+    <string name="nama_program">Area Calculator</string>
+    <string name="deskripsi_program">Kalkulator yang digunakan untuk menghitung luas suatu bangun datar</string>
+    <string name="bangun_datar_textview">BANGUN DATAR</string>
+    <string name="bangun_datar_prompt">Pilih Bangun Datar</string>
+    <string-array name="bangun_datar_arrays">
+        <item>Pilihan Bangun Datar</item>
+        <item>Persegi</item>
+        <item>Persegi Panjang</item>
+        <item>Segitiga</item>
+        <item>Lingkaran</item>
+        <item>Jajar Genjang</item>
+        <item>Trapesium</item>
+        <item>Belah Ketupat</item>
+        <item>Layang-Layang</item>
+    </string-array>
+
+<!--    Section's Name and Section's Description-->
+    <string name="persegi_section">Persegi</string>
+    <string name="persegi_section_description">Penghitungan Luas Persegi</string>
+    <string name="persegi_panjang_section">Persegi Panjang</string>
+    <string name="persegi_panjang_section_description">Penghitungan Luas Persegi Panjang</string>
+    <string name="segitiga_section">Segitiga</string>
+    <string name="segitiga_section_description">Penghitungan Luas Segitiga</string>
+    <string name="lingkaran_section">Lingkaran</string>
+    <string name="lingkaran_section_description">Penghitungan Luas Lingkaran</string>
+    <string name="jajar_genjang_section">Jajar Genjang</string>
+    <string name="jajar_genjang_section_description">Penghitungan Luas Jajar Genjang</string>
+    <string name="trapesium_section">Trapesium</string>
+    <string name="trapesium_section_description">Penghitungan Luas Trapesium</string>
+    <string name="belah_ketupat_section">Belah Ketupat</string>
+    <string name="belah_ketupat_description">Penghitungan Luas Belah Ketupat</string>
+    <string name="layang_layang_section">Layang-Layang</string>
+    <string name="layang_layang_description">Penghitungan Luas Layang-Layang</string>
+
+<!--    Komponen Penghitungan-->
+    <string name="sisi_textview">NILAI SISI</string>
+    <string name="sisi1_textview">NILAI SISI 1</string>
+    <string name="sisi2_textview">NILAI SISI 2</string>
+    <string name="alas_textview">NILAI ALAS</string>
+    <string name="tinggi_textview">NILAI TINGGI</string>
+    <string name="jari_jari_textview">NILAI JARI-JARI</string>
+    <string name="sisi_sejajar1_textview">NILAI SISI SEJAJAR 1</string>
+    <string name="sisi_sejajar2_textview">NILAI SISI SEJAJAR 2</string>
+    <string name="diagonal1_textview">NILAI DIAGONAL 1</string>
+    <string name="diagonal2_textview">NILAI DIAGONAL 2</string>
+
+    <string name="sisi_edittext">masukkan nilai sisi</string>
+    <string name="sisi1_edittext">masukkan nilai sisi pertama</string>
+    <string name="sisi2_edittext">masukkan nilai sisi kedua</string>
+    <string name="alas_edittext">masukkan nilai alas</string>
+    <string name="tinggi_edittext">masukkan nilai tinggi</string>
+    <string name="jari_jari_edittext">masukkan nilai jari-jari</string>
+    <string name="sisi_sejajar1_edittext">masukkan nilai sisi sejajar pertama</string>
+    <string name="sisi_sejajar2_edittext">masukkan nilai sisi sejajar kedua</string>
+    <string name="diagonal1_edittext">masukkan nilai diagonal 1</string>
+    <string name="diagonal2_edittext">masukkan nilai diagonal 2</string>
+
+    <string name="luas_textview">LUAS</string>
+
+    <string name="luas_edittext">hasil penghitungan luas</string>
+
+<!--    Button-->
+    <string name="luas_button">HITUNG LUAS</string>
+</resources>
